@@ -1,7 +1,9 @@
-Installation
-Install dependencies, if needed
+# Installation
+### Install dependencies, if needed
+```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
+```
 Install go, if needed
 cd $HOME && \
 ver="1.22.0" && \
