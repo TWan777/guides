@@ -37,6 +37,7 @@ source $HOME/.bash_profile
 ```
 
 ### Initialize node and create home directory for .0gchain
+```bash
 cd $HOME
 0gchaind config chain-id $CHAIN_ID
 0gchaind config node tcp://localhost:$RPC_PORT
